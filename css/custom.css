@@ -1,0 +1,45 @@
+body
+{
+    background: url("../images/hotel.jpg");
+    background-size: 100%;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 46%, rgba(0,212,255,1) 100%);
+    height: 125px;
+    border-radius: 0.25em;
+}
+
+header h1
+{
+    color: lightgray;
+}
+
+footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 46%, rgba(0,212,255,1) 100%);
+    height: 125px;
+    border-radius: 0.25em;
+}
+
+footer p
+{
+    color: lightgray;
+}
+
+span
+{
+    background-color: #FFC300;
+    padding: 5px;
+}
